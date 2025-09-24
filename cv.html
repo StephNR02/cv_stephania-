@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stephania Ramos Núñez – CV</title>
+  <meta name="description" content="Currículum y portafolio de Stephania Ramos Núñez, Estudiante de Ingeniería en Software en Ensenada, B.C." />
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #0b1020;
+      --bg2:#0f172a;
+      --card:#0f1a33;
+      --muted:#94a3b8;
+      --text:#e5e7eb;
+      --accent:#38bdf8;
+      --ring:rgba(56,189,248,.35);
+      --border:rgba(255,255,255,.06);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu; color:var(--text); background: radial-gradient(1200px 800px at 10% 10%, rgba(56,189,248,.09), transparent 60%),linear-gradient(180deg,var(--bg),var(--bg2));}
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1040px;margin:0 auto;padding:28px}
+    header.hero{display:grid;grid-template-columns:1.3fr .7fr;gap:24px;align-items:center}
+    @media(max-width:900px){header.hero{grid-template-columns:1fr}}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.01)); border:1px solid var(--border); border-radius:18px; box-shadow:0 10px 30px rgba(0,0,0,.25);}
+    .pad{padding:18px}
+    .tag{display:inline-block;border:1px solid var(--border);padding:6px 10px;border-radius:999px;margin:6px 8px 0 0;font-size:.9rem;color:#dbeafe;background:rgba(56,189,248,.08)}
+    h1{font-size:2.2rem;margin:0 0 8px}
+    h2{font-size:1.2rem;margin:0 0 12px;color:#cbd5e1;letter-spacing:.02em}
+    p{margin:0 0 10px;color:#e2e8f0}
+    .muted{color:var(--muted)}
+    .hero .left{padding:22px}
+    .pill{display:inline-flex;gap:8px;align-items:center;background:rgba(56,189,248,.12);border:1px solid var(--ring);color:#bae6fd;padding:6px 10px;border-radius:999px;font-weight:600}
+    .contact{display:flex;flex-direction:column;gap:8px}
+    .grid{display:grid;grid-template-columns:2fr 1fr;gap:20px;margin-top:22px}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}}
+    .list{padding-left:18px;margin:0}
+    .list li{margin:6px 0}
+    .project{display:flex;gap:14px;align-items:flex-start;padding:14px;border-radius:14px;border:1px solid var(--border);background:rgba(13,20,40,.65)}
+    .project h3{margin:0;color:#e5e7eb;font-size:1rem}
+    .project small{color:var(--muted)}
+    .chip{display:inline-block;margin-right:8px;margin-top:8px;padding:6px 8px;border-radius:999px;border:1px solid var(--border);font-size:.85rem;color:#cfe7ff}
+    footer{color:var(--muted);text-align:center;margin:28px 0 8px;font-size:.9rem}
+    .section{padding:16px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    @media(max-width:700px){.split{grid-template-columns:1fr}}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  </style>
+</head>
+<body>
+  <a class="sr-only" href="#contenido">Saltar al contenido</a>
+  <div class="container">
+    <header class="hero card" role="banner">
+      <div class="left">
+        <div class="pill">Estudiante de Ingeniería en Software · Diseño Web</div>
+        <h1>Stephania Ramos Núñez</h1>
+        <p class="muted">Ensenada, Baja California · México</p>
+        <p>Me apasiona el <strong>diseño web</strong> y construir interfaces claras y usables. Domino <strong>HTML</strong>, <strong>Python</strong> y <strong>C++</strong>, tengo nociones de <strong>Java</strong> y aprendo rápido cuando un reto me entusiasma. Desde 2023 he desarrollado proyectos escolares con enfoque práctico y he recibido reconocimientos por su impacto.</p>
+      </div>
+      <div class="pad">
+        <div class="card pad" aria-label="Contacto">
+          <h2>Contacto</h2>
+          <div class="contact">
+            <div>📧 <a href="mailto:stephania.ramos@gmail.com">stephania.ramos@gmail.com</a></div>
+            <div>📱 <a href="tel:+526465241362">+52 646 524 1362</a></div>
+            <div>🔗 <span class="muted">LinkedIn</span>: <em>añadir enlace</em></div>
+            <div>🐙 <a href="https://github.com/StephNR02" target="_blank">github.com/StephNR02</a></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="grid">
+        <div>
+          <div class="card section">
+            <h2>Proyectos destacados</h2>
+
+            <article class="project">
+              <div>
+                <h3>Sistema de IA para reconocimiento de <em>blisters</em> de pastillas</h3>
+                <small>2024 – 2025 · Rol: Desarrolladora · Tipo: Proyecto escolar</small>
+                <p>Modelo de visión por computadora para detectar y clasificar <em>blisters</em> en imágenes, con interfaz web sencilla para cargar y visualizar resultados. Enfocado en mejorar control de inventario y evitar errores de conteo.</p>
+                <div>
+                  <span class="chip">HTML</span>
+                  <span class="chip">Python</span>
+                  <span class="chip">(Visión por computadora)</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project">
+              <div>
+                <h3>Sistema de registro de matrículas para biblioteca</h3>
+                <small>2023 – 2024 · Rol: Desarrolladora · Tipo: Proyecto escolar</small>
+                <p>Aplicación para alta y seguimiento de matrículas y préstamos, con validaciones básicas y exportación de datos. Optimiza el proceso de registro y reduce errores manuales.</p>
+                <div>
+                  <span class="chip">HTML</span>
+                  <span class="chip">C++ / Java (nociones)</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="card section">
+            <h2>Educación</h2>
+            <ul class="list">
+              <li><strong>Ingeniería en Software</strong> — Ensenada, Baja California <br><span class="muted">2023 – presente</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <aside>
+          <div class="card section">
+            <h2>Skills</h2>
+            <div>
+              <span class="tag">HTML</span>
+              <span class="tag">Python</span>
+              <span class="tag">C++</span>
+              <span class="tag">Java (básico)</span>
+              <span class="tag">Diseño web</span>
+              <span class="tag">Git/GitHub</span>
+            </div>
+          </div>
+
+          <div class="card section">
+            <h2>Reconocimientos</h2>
+            <ul class="list">
+              <li>Reconocimientos académicos por proyectos (IA en blisters; sistema de biblioteca) — <span class="muted">2023–2025</span></li>
+            </ul>
+          </div>
+
+          <div class="card section">
+            <h2>Idiomas</h2>
+            <ul class="list">
+              <li>Español — Nativo</li>
+              <li>Inglés — Intermedio (estimado)</li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="y"></span> · Stephania Ramos Núñez · Ensenada, B.C.
+    </footer>
+  </div>
+
+  <script>
+    // Año automático en el pie
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
